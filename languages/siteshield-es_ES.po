@@ -1,0 +1,136 @@
+﻿# SiteShield Security Translation
+msgid ""
+msgstr ""
+"Project-Id-Version: SiteShield Security 2.2.0\n""Language: es_ES\n""MIME-Version: 1.0\n""Content-Type: text/plain; charset=UTF-8\n""Content-Transfer-Encoding: 8bit\n"
+msgid "Active"
+msgstr "Activo"
+
+msgid "Audit Trail Records"
+msgstr "Registros de AuditorÃ­a"
+
+msgid "Change WordPress Login URL"
+msgstr "Cambiar URL de Acceso de WordPress"
+
+msgid "Content Protection & Anti-Clone"
+msgstr "ProtecciÃ³n de Contenido y Anti-Copia"
+
+msgid "Copy URL"
+msgstr "Copiar URL"
+
+msgid "Dashboard"
+msgstr "Panel Principal"
+
+msgid "Diagnostics"
+msgstr "DiagnÃ³sticos"
+
+msgid "Download PDF Report"
+msgstr "Descargar Informe en PDF"
+
+msgid "Emergency Mode"
+msgstr "Modo de Emergencia"
+
+msgid "Emergency Mode ON"
+msgstr "Modo de Emergencia ACTIVO"
+
+msgid "Executive Security Reports"
+msgstr "Informes Ejecutivos de Seguridad"
+
+msgid "Failed"
+msgstr "Fallido"
+
+msgid "File Integrity (SHA-256)"
+msgstr "Integridad de Archivos (SHA-256)"
+
+msgid "Files Scanned"
+msgstr "Archivos Analizados"
+
+msgid "Heuristic Malware Scanner"
+msgstr "EscÃ¡ner HeurÃ­stico de Malware"
+
+msgid "Inactive"
+msgstr "Inactivo"
+
+msgid "Language"
+msgstr "Idioma"
+
+msgid "License & Plans"
+msgstr "Licencia y Planes"
+
+msgid "Login Security & URL Cloaking"
+msgstr "Seguridad de Acceso y URL"
+
+msgid "Not Tested"
+msgstr "No Probado"
+
+msgid "Passed"
+msgstr "Aprobado"
+
+msgid "Protection"
+msgstr "ProtecciÃ³n"
+
+msgid "Reports (PDF)"
+msgstr "Informes (PDF)"
+
+msgid "Run Security Scan"
+msgstr "Ejecutar AnÃ¡lisis"
+
+msgid "Save Login URL"
+msgstr "Guardar URL de Acceso"
+
+msgid "Scanner"
+msgstr "EscÃ¡ner"
+
+msgid "Security Headers & CSP"
+msgstr "Encabezados de Seguridad y CSP"
+
+msgid "Security Score"
+msgstr "PuntuaciÃ³n de Seguridad"
+
+msgid "Settings"
+msgstr "Ajustes"
+
+msgid "Setup Wizard"
+msgstr "Asistente de ConfiguraciÃ³n"
+
+msgid "System Settings & Privacy Policy"
+msgstr "Ajustes del Sistema y Privacidad"
+
+msgid "Threats Blocked"
+msgstr "Ataques Bloqueados"
+
+msgid "Threats Detected"
+msgstr "Amenazas Detectadas"
+
+msgid "Tools, Diagnostics & Backup"
+msgstr "Herramientas, DiagnÃ³sticos y Copia de Seguridad"
+
+msgid "Unique Visitors"
+msgstr "Visitantes Ãšnicos"
+
+msgid "View Report"
+msgstr "Ver Informe"
+
+msgid "Visitors & IPs"
+msgstr "Visitantes e IPs"
+
+msgid "Visitors & Traffic"
+msgstr "Visitantes y TrÃ¡fico"
+
+msgid "Vulnerability Monitor & Audit"
+msgstr "Monitor de Vulnerabilidades y AuditorÃ­a"
+
+msgid "Warning"
+msgstr "Advertencia"
+
+msgid "Web Application Firewall (WAF)"
+msgstr "Firewall de AplicaciÃ³n (WAF)"
+
+msgid "Your website has good protection with minor recommendations."
+msgstr "Su sitio web tiene buena protecciÃ³n con recomendaciones menores."
+
+msgid "Your website requires security attention."
+msgstr "Su sitio web requiere atenciÃ³n de seguridad."
+
+msgid "Your website security is strong."
+msgstr "La seguridad de su sitio web es excelente."
+

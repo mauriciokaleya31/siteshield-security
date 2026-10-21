@@ -1,0 +1,136 @@
+﻿# SiteShield Security Translation
+msgid ""
+msgstr ""
+"Project-Id-Version: SiteShield Security 2.2.0\n""Language: pt_PT\n""MIME-Version: 1.0\n""Content-Type: text/plain; charset=UTF-8\n""Content-Transfer-Encoding: 8bit\n"
+msgid "Active"
+msgstr "Ativo"
+
+msgid "Audit Trail Records"
+msgstr "Registos da Trilha de Auditoria"
+
+msgid "Change WordPress Login URL"
+msgstr "Alterar EndereÃ§o de Login do WordPress"
+
+msgid "Content Protection & Anti-Clone"
+msgstr "ProteÃ§Ã£o de ConteÃºdo e Anti-CÃ³pia"
+
+msgid "Copy URL"
+msgstr "Copiar EndereÃ§o"
+
+msgid "Dashboard"
+msgstr "Painel Principal"
+
+msgid "Diagnostics"
+msgstr "DiagnÃ³sticos"
+
+msgid "Download PDF Report"
+msgstr "Descarregar RelatÃ³rio em PDF"
+
+msgid "Emergency Mode"
+msgstr "Modo de EmergÃªncia"
+
+msgid "Emergency Mode ON"
+msgstr "Modo de EmergÃªncia ATIVO"
+
+msgid "Executive Security Reports"
+msgstr "RelatÃ³rios Executivos de SeguranÃ§a"
+
+msgid "Failed"
+msgstr "Falhou"
+
+msgid "File Integrity (SHA-256)"
+msgstr "Integridade de Ficheiros (SHA-256)"
+
+msgid "Files Scanned"
+msgstr "Ficheiros Auditados"
+
+msgid "Heuristic Malware Scanner"
+msgstr "Analisador HeurÃ­stico de Malware"
+
+msgid "Inactive"
+msgstr "Inativo"
+
+msgid "Language"
+msgstr "Idioma"
+
+msgid "License & Plans"
+msgstr "LicenÃ§a e Planos"
+
+msgid "Login Security & URL Cloaking"
+msgstr "SeguranÃ§a de Login e URL"
+
+msgid "Not Tested"
+msgstr "NÃ£o Testado"
+
+msgid "Passed"
+msgstr "Aprovado"
+
+msgid "Protection"
+msgstr "ProteÃ§Ã£o"
+
+msgid "Reports (PDF)"
+msgstr "RelatÃ³rios (PDF)"
+
+msgid "Run Security Scan"
+msgstr "Executar AnÃ¡lise"
+
+msgid "Save Login URL"
+msgstr "Guardar EndereÃ§o de Login"
+
+msgid "Scanner"
+msgstr "AnÃ¡lise de SeguranÃ§a"
+
+msgid "Security Headers & CSP"
+msgstr "CabeÃ§alhos de SeguranÃ§a e CSP"
+
+msgid "Security Score"
+msgstr "PontuaÃ§Ã£o de SeguranÃ§a"
+
+msgid "Settings"
+msgstr "ConfiguraÃ§Ãµes"
+
+msgid "Setup Wizard"
+msgstr "Assistente de InstalaÃ§Ã£o"
+
+msgid "System Settings & Privacy Policy"
+msgstr "ConfiguraÃ§Ãµes do Sistema e Privacidade"
+
+msgid "Threats Blocked"
+msgstr "Ataques Bloqueados"
+
+msgid "Threats Detected"
+msgstr "AmeaÃ§as Detetadas"
+
+msgid "Tools, Diagnostics & Backup"
+msgstr "Ferramentas, DiagnÃ³sticos e CÃ³pia de SeguranÃ§a"
+
+msgid "Unique Visitors"
+msgstr "Visitantes Ãšnicos"
+
+msgid "View Report"
+msgstr "Ver RelatÃ³rio"
+
+msgid "Visitors & IPs"
+msgstr "Visitantes e IPs"
+
+msgid "Visitors & Traffic"
+msgstr "Visitantes e TrÃ¡fego"
+
+msgid "Vulnerability Monitor & Audit"
+msgstr "MonitorizaÃ§Ã£o de Vulnerabilidades e Auditoria"
+
+msgid "Warning"
+msgstr "Aviso"
+
+msgid "Web Application Firewall (WAF)"
+msgstr "Firewall de AplicaÃ§Ã£o (WAF)"
+
+msgid "Your website has good protection with minor recommendations."
+msgstr "O seu website possui boa proteÃ§Ã£o com recomendaÃ§Ãµes pontuais."
+
+msgid "Your website requires security attention."
+msgstr "O seu website requer atenÃ§Ã£o de seguranÃ§a."
+
+msgid "Your website security is strong."
+msgstr "A seguranÃ§a do seu website estÃ¡ excelente."
+

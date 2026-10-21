@@ -1,0 +1,156 @@
+# Copyright (C) 2026 SiteShield Security Team
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: SiteShield Security 2.2.0\n"
+"Report-Msgid-Bugs-To: https://siteshield.security/support\n"
+"POT-Creation-Date: 2026-08-30 02:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2026-08-30 02:00:00+00:00\n"
+"Last-Translator: SiteShield Team <i18n@siteshield.security>\n"
+"Language-Team: SiteShield Security <i18n@siteshield.security>\n"
+"Language: pt_PT\n"
+
+msgid "Dashboard"
+msgstr ""
+
+msgid "Protection"
+msgstr ""
+
+msgid "Scanner"
+msgstr ""
+
+msgid "Diagnostics"
+msgstr ""
+
+msgid "Visitors & Traffic"
+msgstr ""
+
+msgid "Visitors & IPs"
+msgstr ""
+
+msgid "Reports (PDF)"
+msgstr ""
+
+msgid "License & Plans"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Security Score"
+msgstr ""
+
+msgid "Your website security is strong."
+msgstr ""
+
+msgid "Your website has good protection with minor recommendations."
+msgstr ""
+
+msgid "Your website requires security attention."
+msgstr ""
+
+msgid "Threats Detected"
+msgstr ""
+
+msgid "Threats Blocked"
+msgstr ""
+
+msgid "Files Scanned"
+msgstr ""
+
+msgid "Unique Visitors"
+msgstr ""
+
+msgid "Run Security Scan"
+msgstr ""
+
+msgid "View Report"
+msgstr ""
+
+msgid "Web Application Firewall (WAF)"
+msgstr ""
+
+msgid "Login Security & URL Cloaking"
+msgstr ""
+
+msgid "Heuristic Malware Scanner"
+msgstr ""
+
+msgid "File Integrity (SHA-256)"
+msgstr ""
+
+msgid "Security Headers & CSP"
+msgstr ""
+
+msgid "Content Protection & Anti-Clone"
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Inactive"
+msgstr ""
+
+msgid "Passed"
+msgstr ""
+
+msgid "Failed"
+msgstr ""
+
+msgid "Warning"
+msgstr ""
+
+msgid "Not Tested"
+msgstr ""
+
+msgid "Emergency Mode"
+msgstr ""
+
+msgid "Emergency Mode ON"
+msgstr ""
+
+msgid "Setup Wizard"
+msgstr ""
+
+msgid "Change WordPress Login URL"
+msgstr ""
+
+msgid "Save Login URL"
+msgstr ""
+
+msgid "Copy URL"
+msgstr ""
+
+msgid "Download PDF Report"
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid "Executive Security Reports"
+msgstr ""
+
+msgid "System Settings & Privacy Policy"
+msgstr ""
+
+msgid "Vulnerability Monitor & Audit"
+msgstr ""
+
+msgid "Audit Trail Records"
+msgstr ""
+
+msgid "Tools, Diagnostics & Backup"
+msgstr ""
+
+msgid "%d vulnerability detected"
+msgid_plural "%d vulnerabilities detected"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "%d threat detected"
+msgid_plural "%d threats detected"
+msgstr[0] ""
+msgstr[1] ""

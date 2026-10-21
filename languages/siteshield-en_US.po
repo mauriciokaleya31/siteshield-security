@@ -1,0 +1,136 @@
+﻿# SiteShield Security Translation
+msgid ""
+msgstr ""
+"Project-Id-Version: SiteShield Security 2.2.0\n""Language: en_US\n""MIME-Version: 1.0\n""Content-Type: text/plain; charset=UTF-8\n""Content-Transfer-Encoding: 8bit\n"
+msgid "Active"
+msgstr "Active"
+
+msgid "Audit Trail Records"
+msgstr "Audit Trail Records"
+
+msgid "Change WordPress Login URL"
+msgstr "Change WordPress Login URL"
+
+msgid "Content Protection & Anti-Clone"
+msgstr "Content Protection & Anti-Clone"
+
+msgid "Copy URL"
+msgstr "Copy URL"
+
+msgid "Dashboard"
+msgstr "Dashboard"
+
+msgid "Diagnostics"
+msgstr "Diagnostics"
+
+msgid "Download PDF Report"
+msgstr "Download PDF Report"
+
+msgid "Emergency Mode"
+msgstr "Emergency Mode"
+
+msgid "Emergency Mode ON"
+msgstr "Emergency Mode ON"
+
+msgid "Executive Security Reports"
+msgstr "Executive Security Reports"
+
+msgid "Failed"
+msgstr "Failed"
+
+msgid "File Integrity (SHA-256)"
+msgstr "File Integrity (SHA-256)"
+
+msgid "Files Scanned"
+msgstr "Files Scanned"
+
+msgid "Heuristic Malware Scanner"
+msgstr "Heuristic Malware Scanner"
+
+msgid "Inactive"
+msgstr "Inactive"
+
+msgid "Language"
+msgstr "Language"
+
+msgid "License & Plans"
+msgstr "License & Plans"
+
+msgid "Login Security & URL Cloaking"
+msgstr "Login Security & URL Cloaking"
+
+msgid "Not Tested"
+msgstr "Not Tested"
+
+msgid "Passed"
+msgstr "Passed"
+
+msgid "Protection"
+msgstr "Protection"
+
+msgid "Reports (PDF)"
+msgstr "Reports (PDF)"
+
+msgid "Run Security Scan"
+msgstr "Run Security Scan"
+
+msgid "Save Login URL"
+msgstr "Save Login URL"
+
+msgid "Scanner"
+msgstr "Scanner"
+
+msgid "Security Headers & CSP"
+msgstr "Security Headers & CSP"
+
+msgid "Security Score"
+msgstr "Security Score"
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid "Setup Wizard"
+msgstr "Setup Wizard"
+
+msgid "System Settings & Privacy Policy"
+msgstr "System Settings & Privacy Policy"
+
+msgid "Threats Blocked"
+msgstr "Threats Blocked"
+
+msgid "Threats Detected"
+msgstr "Threats Detected"
+
+msgid "Tools, Diagnostics & Backup"
+msgstr "Tools, Diagnostics & Backup"
+
+msgid "Unique Visitors"
+msgstr "Unique Visitors"
+
+msgid "View Report"
+msgstr "View Report"
+
+msgid "Visitors & IPs"
+msgstr "Visitors & IPs"
+
+msgid "Visitors & Traffic"
+msgstr "Visitors & Traffic"
+
+msgid "Vulnerability Monitor & Audit"
+msgstr "Vulnerability Monitor & Audit"
+
+msgid "Warning"
+msgstr "Warning"
+
+msgid "Web Application Firewall (WAF)"
+msgstr "Web Application Firewall (WAF)"
+
+msgid "Your website has good protection with minor recommendations."
+msgstr "Your website has good protection with minor recommendations."
+
+msgid "Your website requires security attention."
+msgstr "Your website requires security attention."
+
+msgid "Your website security is strong."
+msgstr "Your website security is strong."
+

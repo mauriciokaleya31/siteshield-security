@@ -1,0 +1,16 @@
+# Sistema Operacional e Editores
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependências e artefatos temporários
+node_modules/
+vendor/
+*.log
+*.tmp
+*.bak
+.phpunit.result.cache

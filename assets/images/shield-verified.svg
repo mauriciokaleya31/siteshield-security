@@ -1,0 +1,12 @@
+<svg width="320" height="100" viewBox="0 0 320 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="3" y="3" width="314" height="94" rx="47" fill="#FFFFFF" stroke="#0056D2" stroke-width="6"/>
+  <path d="M75 22C60 22 45 28 45 28V58C45 74 75 88 75 88C75 88 105 74 105 58V28C105 28 90 22 75 22Z" fill="#0056D2"/>
+  <path d="M68 47V42C68 38.134 71.134 35 75 35C78.866 35 82 38.134 82 42V47M65 47H85C86.6569 47 88 48.3431 88 50V62C88 63.6569 86.6569 65 85 65H65C63.3431 65 62 63.6569 62 62V50C62 48.3431 63.3431 47 65 47Z" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="75" cy="56" r="2.5" fill="#FFFFFF"/>
+  <rect x="115" y="24" width="185" height="52" rx="26" fill="#000000"/>
+  <text x="207" y="52" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="900" letter-spacing="1.5" text-anchor="middle">SECURE</text>
+  <text x="207" y="66" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" letter-spacing="0.5" text-anchor="middle">SiteShield</text>
+  <path d="M192 73L193.2 76.5H196.8L193.9 78.6L195 82.1L192 80L189 82.1L190.1 78.6L187.2 76.5H190.8L192 73Z" fill="#0056D2"/>
+  <path d="M207 73L208.2 76.5H211.8L208.9 78.6L210 82.1L207 80L204 82.1L205.1 78.6L202.2 76.5H205.8L207 73Z" fill="#0056D2"/>
+  <path d="M222 73L223.2 76.5H226.8L223.9 78.6L225 82.1L222 80L219 82.1L220.1 78.6L217.2 76.5H220.8L222 73Z" fill="#0056D2"/>
+</svg>

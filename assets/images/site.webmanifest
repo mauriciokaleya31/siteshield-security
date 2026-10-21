@@ -1,0 +1,14 @@
+{
+  "name": "SiteShield Security",
+  "short_name": "SiteShield",
+  "icons": [
+    {
+      "src": "shield.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#0066FF",
+  "background_color": "#0F172A",
+  "display": "standalone"
+}
