@@ -32,7 +32,7 @@ class Scan_Scheduler {
 	public static function init() {
 		add_filter( 'cron_schedules', array( __CLASS__, 'add_cron_schedules' ) );
 		add_action( self::CRON_HOOK, array( __CLASS__, 'run_scheduled_scan' ) );
-		self::check_schedule();
+		add_action( 'init', array( __CLASS__, 'check_schedule' ), 20 );
 	}
 
 	/**
@@ -42,16 +42,17 @@ class Scan_Scheduler {
 	 * @return array
 	 */
 	public static function add_cron_schedules( $schedules ) {
+		$has_init = function_exists( 'did_action' ) && did_action( 'init' );
 		if ( ! isset( $schedules['weekly'] ) ) {
 			$schedules['weekly'] = array(
 				'interval' => 7 * DAY_IN_SECONDS,
-				'display'  => __( 'Uma vez por semana', 'siteshield' ),
+				'display'  => $has_init ? __( 'Uma vez por semana', 'siteshield' ) : 'Uma vez por semana',
 			);
 		}
 		if ( ! isset( $schedules['monthly'] ) ) {
 			$schedules['monthly'] = array(
 				'interval' => 30 * DAY_IN_SECONDS,
-				'display'  => __( 'Uma vez por mês', 'siteshield' ),
+				'display'  => $has_init ? __( 'Uma vez por mês', 'siteshield' ) : 'Uma vez por mês',
 			);
 		}
 		return $schedules;
