@@ -165,7 +165,7 @@ class Firewall_Engine {
 	}
 
 	/**
-	 * Tratea a ameaça detectada de acordo com o modo do WAF (MONITOR ou BLOCK)
+	 * Trata a ameaça detectada de acordo com o modo do WAF (MONITOR ou BLOCK)
 	 *
 	 * @param string $ip IP de origem.
 	 * @param string $reason Motivo da detecção.
@@ -211,7 +211,7 @@ class Firewall_Engine {
 					h1 { font-size: 24px; margin: 0 0 10px; color: #0F172A; }
 					p { font-size: 14px; color: #64748B; margin-bottom: 20px; line-height: 1.5; }
 					.details { background: #F1F5F9; padding: 12px; border-radius: 8px; font-size: 12px; color: #475569; margin-bottom: 24px; text-align: left; }
-					a { display: inline-block; background: #0066FF; color: #fff; text-decorateion: none; padding: 10px 24px; border-radius: 8px; font-weight: 600; }
+					a { display: inline-block; background: #0066FF; color: #fff; text-decoration: none; padding: 10px 24px; border-radius: 8px; font-weight: 600; }
 				</style>
 			</head>
 			<body>

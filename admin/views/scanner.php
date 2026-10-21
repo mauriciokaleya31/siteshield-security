@@ -28,7 +28,7 @@ $quarantined_files = \SiteShield\Scanner\Quarantine::get_all();
 
 <div class="ss-card">
 	<div class="card-header">
-		<h3><?php esc_html_e( 'Scan Operateions', 'siteshield' ); ?></h3>
+		<h3><?php esc_html_e( 'Scan Operations', 'siteshield' ); ?></h3>
 	</div>
 	<div class="card-body">
 		<div class="scanner-actions-row">

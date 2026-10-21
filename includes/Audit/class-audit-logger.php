@@ -34,7 +34,7 @@ class Audit_Logger {
 		add_action( 'deactivated_plugin', array( __CLASS__, 'log_plugin_deactivation' ) );
 
 		// Log de alterações de usuários
-		add_action( 'user_register', array( __CLASS__, 'log_user_registrateion' ) );
+		add_action( 'user_register', array( __CLASS__, 'log_user_registration' ) );
 		add_action( 'delete_user', array( __CLASS__, 'log_user_deletion' ) );
 	}
 
@@ -89,7 +89,7 @@ class Audit_Logger {
 		self::log( 'plugin_deactivated', 'plugin', $plugin, 'Plugin desativado no WordPress: ' . $plugin );
 	}
 
-	public static function log_user_registrateion( $user_id ) {
+	public static function log_user_registration( $user_id ) {
 		$user  = function_exists( 'get_userdata' ) ? get_userdata( $user_id ) : null;
 		$login = ( $user && isset( $user->user_login ) ) ? $user->user_login : (string) $user_id;
 		self::log( 'user_created', 'user', $login, 'Novo usuário cadastrado' );

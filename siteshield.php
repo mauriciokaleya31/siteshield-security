@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name: SiteShield Security & Anti-Clone — Enterprise Suite
+ * Plugin Name: SiteShield Security & Anti-Clone — Enterprise Suite (Edição Demo Gratuita - 1.ª Versão)
  * Plugin URI: https://github.com/mauriciokaleya31/siteshield-security
- * Description: Suíte corporativa de segurança para WordPress: WAF Inteligente com 4 Níveis, 2FA TOTP, Heurística de Malware com Quarentena Segura, File Integrity SHA-256, System Health Center, Autoteste de Proteções, Hardening, Sessões Ativas, Estatísticas de Visitantes, Relatórios PDF/CSV/JSON, Anti-Clone, Cabeçalhos HTTP e Security Center Multilíngue.
+ * Description: [1.ª Versão — Modelo Demo 100% Gratuito & Desbloqueado] Suíte corporativa de segurança para WordPress criada por Maurício Kaleya: WAF Inteligente com 4 Níveis, 2FA TOTP, Heurística de Malware com Quarentena Segura, File Integrity SHA-256, System Health Center, Autoteste de Proteções, Hardening, Sessões Ativas, Estatísticas de Visitantes, Relatórios PDF/CSV/JSON, Anti-Clone, Cabeçalhos HTTP e Selo SiteShield Verified.
  * Version: 2.4.0
  * Author: Maurício Kaleya (mauriciokaleya31)
  * Author URI: https://github.com/mauriciokaleya31

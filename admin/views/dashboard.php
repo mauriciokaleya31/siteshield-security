@@ -128,28 +128,26 @@ $visitor_state = \SiteShield\Visitors\Visitor_Tracker::get_stats( '7d' );
 					include SITESHIELD_PATH . 'admin/views/tools.php';
 					break;
 				default:
-					// AVISO DISCRETO DE PLANO FREE
-					if ( ! empty( $license['is_free'] ) ) :
+					// BANNER INFORMATIVO DA EDIÇÃO DEMO GRATUITA (1.ª VERSÃO — 100% DESBLOQUEADA)
 					?>
-					<div class="ss-card" style="margin-bottom: 20px; border-left: 4px solid #0066FF; background: #EFF6FF; border-radius: 8px;">
+					<div class="ss-card" style="margin-bottom: 20px; border-left: 4px solid #10B981; background: #ECFDF5; border-radius: 8px;">
 						<div class="card-body" style="display: flex; justify-content: space-between; align-items: center; gap: 15px; padding: 12px 18px; flex-wrap: wrap;">
 							<div style="display: flex; align-items: center; gap: 10px;">
-								<span style="font-size: 1.1rem;">🛡️</span>
-								<span style="color: #1E3A8A; font-size: 13.5px; font-weight: 500;">
-									<?php esc_html_e( 'Está a utilizar o plano FREE com proteções locais ativas. Faça upgrade para desbloquear o Selo SiteShield Verified, WAF avançado e relatórios PDF.', 'siteshield' ); ?>
+								<span style="font-size: 1.1rem;">🎉</span>
+								<span style="color: #065F46; font-size: 13.5px; font-weight: 500;">
+									<?php esc_html_e( 'Edição Demo Gratuita (1.ª Versão por Maurício Kaleya): Todas as funcionalidades Enterprise & PRO (WAF Avançado, 2FA, Scanner Profundo, Quarentena, Relatórios PDF e Selo SiteShield Verified) estão 100% liberadas gratuitamente!', 'siteshield' ); ?>
 								</span>
 							</div>
 							<div style="display: flex; gap: 8px;">
-								<a href="<?php echo esc_url( \SiteShield\Cloud\Cloud_Client::get_cloud_url() . '/pricing' ); ?>" target="_blank" class="button button-primary" style="font-size: 12px; height: 30px; line-height: 28px;">
-									<?php esc_html_e( 'Ver Planos', 'siteshield' ); ?>
+								<a href="?page=siteshield-dashboard&tab=verified-badge" class="button button-primary" style="font-size: 12px; height: 30px; line-height: 28px; background: #059669; border-color: #059669;">
+									<?php esc_html_e( 'Configurar Selo Verified', 'siteshield' ); ?>
 								</a>
-								<a href="?page=siteshield-dashboard&tab=license" class="button" style="font-size: 12px; height: 30px; line-height: 28px;">
-									<?php esc_html_e( 'Ativar Licença', 'siteshield' ); ?>
+								<a href="?page=siteshield-dashboard&tab=reports" class="button" style="font-size: 12px; height: 30px; line-height: 28px;">
+									<?php esc_html_e( 'Gerar Relatório PDF', 'siteshield' ); ?>
 								</a>
 							</div>
 						</div>
 					</div>
-					<?php endif; ?>
 
 					<?php
 					// DASHBOARD PRINCIPAL

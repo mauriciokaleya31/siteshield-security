@@ -957,41 +957,37 @@ class Admin_Controller {
 		}
 
 		$res = new \stdClass();
-		$res->name           = 'SiteShield Security & Anti-Clone — Enterprise Suite';
-		$res->slug           = 'siteshield-security';
-		$res->version        = SITESHIELD_VERSION;
-		$res->author         = '<a href="https://siteshield.security">Mauriciokaleya</a>';
-		$res->author_profile = 'https://siteshield.security';
-		$res->homepage       = 'https://siteshield.security';
-		$res->requires       = '5.8';
-		$res->tested         = '6.6';
-		$res->requires_php   = '7.4';
-		$res->last_updated   = '2026-08-30';
-		$res->active_installs= 1000;
-		$res->rateing         = 100;
-		$res->num_rateings    = 58;
+		$res->name            = 'SiteShield Security & Anti-Clone — Enterprise Suite (Demo Free v1)';
+		$res->slug            = 'siteshield-security';
+		$res->version         = SITESHIELD_VERSION;
+		$res->author          = '<a href="https://github.com/mauriciokaleya31">Maurício Kaleya</a>';
+		$res->author_profile  = 'https://github.com/mauriciokaleya31';
+		$res->homepage        = 'https://github.com/mauriciokaleya31/siteshield-security';
+		$res->requires        = '5.8';
+		$res->tested          = '6.6';
+		$res->requires_php    = '7.4';
+		$res->last_updated    = date( 'Y-m-d' );
+		$res->active_installs = 1000;
+		$res->rating          = 100;
+		$res->num_ratings     = 58;
 
 		$res->sections = array(
-			'description'  => '<h3>Suíte Corporateiva de Segurança e Anti-Clone</h3><p>O <strong>SiteShield Security</strong> desenvolvido por <strong>Mauriciokaleya</strong> é uma solução completa de cibersegurança para WordPress com WAF inteligente, 2FA TOTP, Quarentena Segura, Heurística de Malware, File Integrity SHA-256, Anti-Cópia/Anti-Scraping e Monitor de Tráfego.</p><h4>Principais Recursos:</h4><ul><li><strong>Firewall WAF:</strong> 4 níveis de sensibilidade contra SQLi, XSS e exploits.</li><li><strong>Login Security:</strong> URL personalizada de login, proteção contra força bruta e 2FA TOTP.</li><li><strong>Quarentena Segura:</strong> Isolamento protegido de arquivos suspeitos com backup.</li><li><strong>System Health:</strong> Diagnóstico de 15 componentes sem falso sentimento de segurança.</li><li><strong>Anti-Clone:</strong> Proteção de conteúdo contra cópia casual e ferramentas de inspeção.</li></ul>',
-			'installation' => '<h4>Como Instalar:</h4><ol><li>Envie o arquivo <code>siteshield-security.zip</code> em <strong>Plugins > Adicionar Novo > Enviar Plugin</strong>.</li><li>Clique em <strong>Ativar Plugin</strong>.</li><li>Siga as 7 etapas do <strong>Assistente Onboarding</strong> para configurar as proteções do seu site.</li></ol>',
-			'faq'          => '<h4>Perguntas Frequentes</h4><p><strong>O plugin funciona se a Cloud estiver offline?</strong><br>Sim, o SiteShield possui modo Fail-Safe e todas as proteções essenciais locais continuam funcionando perfeitamente.</p><p><strong>Como recupero o acesso se esquecer a URL de login?</strong><br>Adicione <code>define(\'SITESHIELD_DISABLE_ALL\', true);</code> no seu <code>wp-config.php</code>.</p>',
-			'changelog'    => '<h4>2.4.0</h4><ul><li>Padronização autoral de Mauriciokaleya.</li><li>Adição do modal completo "Ver detalhes".</li><li>Otimização de ativação e prevenção de erros fatais.</li></ul>',
+			'description'  => '<h3>Suíte Corporativa de Segurança e Anti-Clone — Edição Demo Gratuita (1.ª Versão)</h3><p>O <strong>SiteShield Security</strong> desenvolvido por <strong>Maurício Kaleya (@mauriciokaleya31)</strong> é uma solução completa de cibersegurança para WordPress. Nesta <strong>Primeira Versão Pública (Modelo Demo Gratuito)</strong>, todas as funcionalidades Enterprise & PRO estão 100% desbloqueadas sem custos.</p><h4>Principais Recursos (100% Liberados):</h4><ul><li><strong>Firewall WAF:</strong> 4 níveis de sensibilidade contra SQLi, XSS e exploits.</li><li><strong>Login Security:</strong> URL personalizada de login, proteção contra força bruta e 2FA TOTP.</li><li><strong>Quarentena Segura:</strong> Isolamento protegido de arquivos suspeitos com backup.</li><li><strong>System Health & Relatórios PDF:</strong> Diagnóstico de 15 componentes e exportação de relatórios executivos PDF/CSV/JSON.</li><li><strong>Anti-Clone & Selo Verified:</strong> Proteção de conteúdo e Selo Oficial SiteShield Verified desbloqueado.</li></ul>',
+			'installation' => '<h4>Como Instalar:</h4><ol><li>Envie o arquivo <code>siteshield-security.zip</code> em <strong>Plugins > Adicionar Novo > Enviar Plugin</strong>.</li><li>Clique em <strong>Ativar Plugin</strong>.</li><li>Siga as etapas do <strong>Assistente Onboarding</strong> para configurar as proteções do seu site.</li></ol>',
+			'faq'          => '<h4>Perguntas Frequentes</h4><p><strong>Preciso pagar ou inserir chave de licença nesta versão?</strong><br>Não! Esta é a 1.ª Versão (Modelo Demo Gratuito), onde todos os recursos PRO e Enterprise estão 100% liberados gratuitamente.</p><p><strong>Como recupero o acesso se esquecer a URL de login?</strong><br>Adicione <code>define(\'SITESHIELD_DISABLE_ALL\', true);</code> no seu <code>wp-config.php</code>.</p>',
+			'changelog'    => '<h4>2.4.0 (Edição Demo Gratuita — 1.ª Versão)</h4><ul><li>Desbloqueio gratuito de 100% das funcionalidades por Maurício Kaleya (@mauriciokaleya31).</li><li>Correção geral de estabilidade, REST API, Scanner e Monitor de Integridade.</li></ul>',
 		);
 
 		return $res;
 	}
 
 	/**
-	 * Salva as configurações do Selo de Verificação com validação de plano
+	 * Salva as configurações do Selo de Verificação
 	 */
 	public static function handle_save_badge_settings() {
 		check_admin_referer( 'siteshield_save_badge_settings', 'siteshield_badge_nonce' );
 		if ( ! current_user_can( self::get_required_capability() ) ) {
 			wp_die( esc_html__( 'Permissão negada.', 'siteshield' ) );
-		}
-
-		if ( ! \SiteShield\Core\Feature_Manager::can_use( 'verification_badge' ) ) {
-			wp_die( esc_html__( 'O Selo SiteShield Verified é um recurso exclusivo dos planos PRO, Business e Agency.', 'siteshield' ) );
 		}
 
 		$enabled    = ! empty( $_POST['badge_enabled'] );

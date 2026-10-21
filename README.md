@@ -1,12 +1,18 @@
-# 🛡️ SiteShield Security & Anti-Clone — Enterprise Suite for WordPress
+# 🛡️ SiteShield Security & Anti-Clone — Enterprise Suite for WordPress (Edição Demo Gratuita — 1.ª Versão)
 
-[![Version](https://img.shields.io/badge/version-2.4.0-blue.svg)](https://github.com/mauriciokaleya31/siteshield-security/releases)
+[![Version](https://img.shields.io/badge/version-2.4.0%20(1.%C2%AA%20Vers%C3%A3o%20Demo)-blue.svg)](https://github.com/mauriciokaleya31/siteshield-security/releases)
+[![Edition](https://img.shields.io/badge/edi%C3%A7%C3%A3o-100%25%20Gratuita%20%26%20Desbloqueada-10B981.svg)](https://github.com/mauriciokaleya31/siteshield-security)
 [![WordPress](https://img.shields.io/badge/WordPress-5.8%2B%20%7C%206.6%2B-21759b.svg)](https://wordpress.org)
 [![PHP](https://img.shields.io/badge/PHP-7.4%2B%20%7C%208.x-777bb4.svg)](https://php.net)
 [![License](https://img.shields.io/badge/license-GPLv2%2B-green.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
 [![Author](https://img.shields.io/badge/criador-Maur%C3%ADcio%20Kaleya-orange.svg)](https://github.com/mauriciokaleya31)
 
-O **SiteShield Security & Anti-Clone (Enterprise Suite)** é um plugin completo e corporativo de cibersegurança, blindagem (*hardening*), auditoria e proteção anti-clonagem para **WordPress**, desenvolvido por **Maurício Kaleya** ([@mauriciokaleya31](https://github.com/mauriciokaleya31)).
+O **SiteShield Security & Anti-Clone (Enterprise Suite)** é um plugin completo e corporativo de cibersegurança, blindagem (*hardening*), auditoria e proteção anti-clonagem para **WordPress**, idealizado e desenvolvido por **Maurício Kaleya** ([@mauriciokaleya31](https://github.com/mauriciokaleya31)).
+
+> ### 🎉 Nota Importante — Modelo Demo (Primeira Versão 100% Gratuita)
+> Esta é a **Primeira Versão Pública (Modelo de Demonstração / 1.ª Versão)** disponibilizada gratuitamente para a comunidade!
+> - **100% dos recursos desbloqueados de fábrica:** Diferente de versões com bloqueio de licença, nesta edição **todas as funcionalidades Enterprise & PRO estão totalmente liberadas de forma gratuita**, sem necessidade de chave de licença paga.
+> - Inclui **Firewall WAF com 4 Níveis**, **2FA TOTP**, **Scanner Heurístico Profundo & Quarentena**, **Monitor de Integridade SHA-256**, **Anti-Clone**, **Relatórios Executivos em PDF** e o **Selo Oficial SiteShield Verified** prontos para usar!
 
 Projetado com os princípios de **Defesa em Profundidade (*Defense in Depth*)**, **Privilégio Mínimo (*Least Privilege*)** e **Alta Performance (*Performance First*)**, o SiteShield protege sites WordPress, lojas WooCommerce e portais empresariais contra ataques modernos sem comprometer a velocidade do site.
 

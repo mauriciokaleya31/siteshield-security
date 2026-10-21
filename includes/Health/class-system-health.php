@@ -165,8 +165,8 @@ class System_Health {
 		// 15. Licença do Produto
 		$components['license'] = array(
 			'name'    => __( 'Nível da Licença Ativa', 'siteshield' ),
-			'status'  => strtoupper( $license['plan'] ),
-			'details' => $license['plan_slug'] === 'free' ? __( 'Plano Comunitário Grateuito', 'siteshield' ) : __( 'Licença Corporateiva Ativa', 'siteshield' ),
+			'status'  => 'PASS',
+			'details' => __( 'Edição Demo Gratuita (1.ª Versão) — 100% Desbloqueada', 'siteshield' ),
 		);
 
 		return $components;

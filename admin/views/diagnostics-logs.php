@@ -42,9 +42,9 @@ $export_pdf_url  = wp_nonce_url( admin_url( 'admin.php?siteshield_action=print_r
 				<span><?php esc_html_e( 'Exportar', 'siteshield' ); ?> ▾</span>
 			</button>
 			<div class="ss-dropdown-menu" id="export-dropdown-menu" style="display: none; position: absolute; right: 0; top: 100%; margin-top: 4px; background: #FFF; border: 1px solid #E2E8F0; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); z-index: 100; min-width: 160px;">
-				<a href="<?php echo esc_url( $export_csv_url ); ?>" class="ss-dropdown-item" style="display: block; padding: 8px 14px; color: #0F172A; text-decorateion: none; font-size: 13px; border-bottom: 1px solid #F1F5F9;"><?php esc_html_e( 'Exportar CSV', 'siteshield' ); ?></a>
-				<a href="<?php echo esc_url( $export_json_url ); ?>" class="ss-dropdown-item" style="display: block; padding: 8px 14px; color: #0F172A; text-decorateion: none; font-size: 13px; border-bottom: 1px solid #F1F5F9;"><?php esc_html_e( 'Exportar JSON', 'siteshield' ); ?></a>
-				<a href="<?php echo esc_url( $export_pdf_url ); ?>" target="_blank" class="ss-dropdown-item" style="display: block; padding: 8px 14px; color: #0F172A; text-decorateion: none; font-size: 13px;"><?php esc_html_e( 'Relatório PDF', 'siteshield' ); ?></a>
+				<a href="<?php echo esc_url( $export_csv_url ); ?>" class="ss-dropdown-item" style="display: block; padding: 8px 14px; color: #0F172A; text-decoration: none; font-size: 13px; border-bottom: 1px solid #F1F5F9;"><?php esc_html_e( 'Exportar CSV', 'siteshield' ); ?></a>
+				<a href="<?php echo esc_url( $export_json_url ); ?>" class="ss-dropdown-item" style="display: block; padding: 8px 14px; color: #0F172A; text-decoration: none; font-size: 13px; border-bottom: 1px solid #F1F5F9;"><?php esc_html_e( 'Exportar JSON', 'siteshield' ); ?></a>
+				<a href="<?php echo esc_url( $export_pdf_url ); ?>" target="_blank" class="ss-dropdown-item" style="display: block; padding: 8px 14px; color: #0F172A; text-decoration: none; font-size: 13px;"><?php esc_html_e( 'Relatório PDF', 'siteshield' ); ?></a>
 			</div>
 		</div>
 	</div>

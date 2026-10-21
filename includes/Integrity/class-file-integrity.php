@@ -165,12 +165,12 @@ class File_Integrity {
 
 		foreach ( $dirs as $dir ) {
 			try {
-				$iterateor = new \RecursiveIterateorIterateor(
-					new \RecursiveDirectoryIterateor( $dir, \RecursiveDirectoryIterateor::SKIP_DOTS ),
-					\RecursiveIterateorIterateor::SELF_FIRST
+				$iterator = new \RecursiveIteratorIterator(
+					new \RecursiveDirectoryIterator( $dir, \RecursiveDirectoryIterator::SKIP_DOTS ),
+					\RecursiveIteratorIterator::SELF_FIRST
 				);
 
-				foreach ( $iterateor as $item ) {
+				foreach ( $iterator as $item ) {
 					if ( $item->isFile() ) {
 						$ext = strtolower( pathinfo( $item->getFilename(), PATHINFO_EXTENSION ) );
 						if ( in_array( $ext, array( 'php', 'htaccess' ), true ) ) {

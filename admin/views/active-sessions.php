@@ -15,8 +15,8 @@ $sessions = \SiteShield\Login\Session_Manager::get_active_admin_sessions();
 ?>
 <div class="ss-content-header">
 	<div class="content-header-title">
-		<h2><?php esc_html_e( 'Active Administrateor Sessions', 'siteshield' ); ?></h2>
-		<p><?php esc_html_e( 'Monitorização em tempo real de contas de administrador conectadas ação painel.', 'siteshield' ); ?></p>
+		<h2><?php esc_html_e( 'Active Administrator Sessions', 'siteshield' ); ?></h2>
+		<p><?php esc_html_e( 'Monitorização em tempo real de contas de administrador conectadas ao painel.', 'siteshield' ); ?></p>
 	</div>
 	<div class="content-header-actions">
 		<button type="button" class="ss-btn ss-btn-danger" id="btn-destroy-other-sessions">
@@ -41,7 +41,7 @@ $sessions = \SiteShield\Login\Session_Manager::get_active_admin_sessions();
 							<th><?php esc_html_e( 'Utilizador', 'siteshield' ); ?></th>
 							<th><?php esc_html_e( 'Endereço IP', 'siteshield' ); ?></th>
 							<th><?php esc_html_e( 'Navegador', 'siteshield' ); ?></th>
-							<th><?php esc_html_e( 'Sistema Operateivo', 'siteshield' ); ?></th>
+							<th><?php esc_html_e( 'Sistema Operativo', 'siteshield' ); ?></th>
 							<th><?php esc_html_e( 'Data de Login', 'siteshield' ); ?></th>
 							<th><?php esc_html_e( 'Status', 'siteshield' ); ?></th>
 						</tr>

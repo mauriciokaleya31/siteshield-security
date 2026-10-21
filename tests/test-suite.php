@@ -59,7 +59,7 @@ $required_files = array(
 	'includes/Audit/class-audit-logger.php',
 	'includes/Notifications/class-notifier.php',
 	'includes/Recovery/class-backup-recovery.php',
-	'includes/API/class-resta-api.php',
+	'includes/API/class-rest-api.php',
 	'admin/class-admin-controller.php',
 	'admin/class-setup-wizard.php',
 	'admin/views/layout-sidebar.php',

@@ -60,7 +60,7 @@ class Quarantine {
 
 		// 1. Cria cópia de backup no local seguro
 		if ( ! @copy( $full_path, $destination ) ) {
-			return new \WP_Error( 'copy_failed', __( 'Falha ação copiar o arquivo para a quarentena.', 'siteshield' ) );
+			return new \WP_Error( 'copy_failed', __( 'Falha ao copiar o arquivo para a quarentena.', 'siteshield' ) );
 		}
 
 		// 2. Remove ou esvazia o arquivo malicioso original
@@ -131,7 +131,7 @@ class Quarantine {
 
 		// Copia de volta
 		if ( ! @copy( $stored_file, $target_file ) ) {
-			return new \WP_Error( 'restore_failed', __( 'Falha ação restaurar o arquivo.', 'siteshield' ) );
+			return new \WP_Error( 'restore_failed', __( 'Falha ao restaurar o arquivo.', 'siteshield' ) );
 		}
 
 		// Atualiza banco

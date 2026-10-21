@@ -47,8 +47,8 @@ class Login_Security {
 		add_filter( 'site_url', array( __CLASS__, 'filter_site_url' ), 10, 4 );
 
 		// Proteção contra enumeração de usuários (?author=X e REST API)
-		add_action( 'init', array( __CLASS__, 'block_user_enumerateion' ) );
-		add_filter( 'resta_endpoints', array( __CLASS__, 'filter_resta_user_endpoints' ) );
+		add_action( 'init', array( __CLASS__, 'block_user_enumeration' ) );
+		add_filter( 'rest_endpoints', array( __CLASS__, 'filter_rest_user_endpoints' ) );
 
 		// Desativação / Proteção do XML-RPC
 		add_filter( 'xmlrpc_enabled', array( __CLASS__, 'filter_xmlrpc_enabled' ) );
@@ -187,7 +187,7 @@ class Login_Security {
 					.card { background: #FFFFFF; padding: 40px; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.06); text-align: center; max-width: 440px; border: 1px solid #E2E8F0; }
 					h1 { font-size: 48px; margin: 0 0 10px; color: #0066FF; }
 					p { font-size: 15px; color: #64748B; margin-bottom: 24px; line-height: 1.5; }
-					a { display: inline-block; background: #0066FF; color: #fff; text-decorateion: none; padding: 10px 24px; border-radius: 8px; font-weight: 600; }
+					a { display: inline-block; background: #0066FF; color: #fff; text-decoration: none; padding: 10px 24px; border-radius: 8px; font-weight: 600; }
 				</style>
 			</head>
 			<body>
@@ -252,8 +252,8 @@ class Login_Security {
 	 */
 	private static function set_auth_cookie( $secret_key ) {
 		$token    = self::generate_token( $secret_key );
-		$durateion = intval( Settings::get( 'login_cookie_durateion', 86400 ) );
-		$expire   = time() + $durateion;
+		$duration = intval( Settings::get( 'login_cookie_duration', 86400 ) );
+		$expire   = time() + $duration;
 		$secure   = is_ssl();
 
 		setcookie( SITESHIELD_COOKIE_NAME, $token, array(
@@ -283,7 +283,7 @@ class Login_Security {
 	/**
 	 * Bloqueia a enumeração de usuários por autor (?author=1)
 	 */
-	public static function block_user_enumerateion() {
+	public static function block_user_enumeration() {
 		if ( ! is_admin() && Settings::get( 'login_disable_user_enum', true ) ) {
 			if ( isset( $_REQUEST['author'] ) && is_numeric( $_REQUEST['author'] ) ) {
 				wp_safe_redirect( home_url( '/' ), 301 );
@@ -295,7 +295,7 @@ class Login_Security {
 	/**
 	 * Desativa a listagem de usuários na REST API para visitantes não autenticados
 	 */
-	public static function filter_resta_user_endpoints( $endpoints ) {
+	public static function filter_rest_user_endpoints( $endpoints ) {
 		if ( ! is_user_logged_in() && Settings::get( 'login_disable_user_enum', true ) ) {
 			if ( isset( $endpoints['/wp/v2/users'] ) ) {
 				unset( $endpoints['/wp/v2/users'] );

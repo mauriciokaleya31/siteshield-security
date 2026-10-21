@@ -88,7 +88,7 @@ $active_login_url = class_exists( '\SiteShield\Login\Login_Security' ) ? \SiteSh
 <!-- 2. FORÇA BRUTA & LIMITES -->
 <div class="ss-card" style="margin-top: 25px;">
 	<div class="card-header">
-		<h3><?php esc_html_e( 'Brute Force & Enumerateion Protection', 'siteshield' ); ?></h3>
+		<h3><?php esc_html_e( 'Brute Force & Enumeration Protection', 'siteshield' ); ?></h3>
 	</div>
 	<div class="card-body">
 		<form id="form-login-limits-settings" class="ss-settings-form">

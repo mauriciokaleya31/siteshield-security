@@ -2,8 +2,8 @@
 /**
  * API REST Interna e Autenticada do SiteShield
  *
- * @package Mauriciokaleya by SiteShield
- * @author Mauriciokaleya
+ * @package SiteShield_Security
+ * @author Maurício Kaleya <kaleyapt@gmail.com>
  * @subpackage API
  */
 
@@ -32,7 +32,7 @@ class REST_API {
 	 * Registra as rotas da API REST
 	 */
 	public static function init() {
-		add_action( 'resta_api_init', array( __CLASS__, 'register_routes' ) );
+		add_action( 'rest_api_init', array( __CLASS__, 'register_routes' ) );
 	}
 
 	/**
@@ -40,7 +40,7 @@ class REST_API {
 	 */
 	public static function register_routes() {
 		// 1. Status e Security Score
-		register_resta_route(
+		register_rest_route(
 			self::NAMESPACE,
 			'/status',
 			array(
@@ -51,7 +51,7 @@ class REST_API {
 		);
 
 		// 2. Disparar Varredura de Malware
-		register_resta_route(
+		register_rest_route(
 			self::NAMESPACE,
 			'/scan',
 			array(
@@ -62,7 +62,7 @@ class REST_API {
 		);
 
 		// 3. Gestão de IPs
-		register_resta_route(
+		register_rest_route(
 			self::NAMESPACE,
 			'/ips',
 			array(
@@ -85,7 +85,7 @@ class REST_API {
 	 */
 	public static function get_status() {
 		$score = Security_Score::calculate();
-		return resta_ensure_response( array(
+		return rest_ensure_response( array(
 			'score'       => $score,
 			'settings'    => Settings::get(),
 			'server_time' => current_time( 'mysql' ),
@@ -99,13 +99,13 @@ class REST_API {
 	public static function run_scan( $request ) {
 		$scan_type = $request->get_param( 'type' ) ? sanitize_key( $request->get_param( 'type' ) ) : 'quick';
 		$results   = Malware_Scanner::execute_scan( $scan_type );
-		return resta_ensure_response( $results );
+		return rest_ensure_response( $results );
 	}
 
 	/**
 	 * Endpoint: Retorna lista de IPs
 	 */
 	public static function get_ips() {
-		return resta_ensure_response( IP_Manager::get_all_ips() );
+		return rest_ensure_response( IP_Manager::get_all_ips() );
 	}
 }

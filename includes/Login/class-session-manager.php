@@ -73,7 +73,7 @@ class Session_Manager {
 						'browser'     => $browser,
 						'os'          => $os,
 						'login_time'  => isset( $session_data['login'] ) ? date( 'd/m/Y H:i', $session_data['login'] ) : 'N/A',
-						'expirateion'  => isset( $session_data['expirateion'] ) ? date( 'd/m/Y H:i', $session_data['expirateion'] ) : 'N/A',
+						'expiration'  => isset( $session_data['expiration'] ) ? date( 'd/m/Y H:i', $session_data['expiration'] ) : 'N/A',
 						'is_current'  => $is_current,
 					);
 				}

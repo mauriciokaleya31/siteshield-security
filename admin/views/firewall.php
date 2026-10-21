@@ -31,7 +31,7 @@ if ( $wpdb->get_var( "SHOW TABLES LIKE '{$tables['events']}'" ) === $tables['eve
 	<!-- WAF MODE SELECTION -->
 	<div class="ss-card">
 		<div class="card-header">
-			<h3><?php esc_html_e( 'Firewall Operateing Mode', 'siteshield' ); ?></h3>
+			<h3><?php esc_html_e( 'Firewall Operating Mode', 'siteshield' ); ?></h3>
 		</div>
 		<div class="card-body">
 			<div class="waf-mode-selector">

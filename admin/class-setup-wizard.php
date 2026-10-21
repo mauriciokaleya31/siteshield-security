@@ -103,8 +103,8 @@ class Setup_Wizard {
 					<!-- ETAPA 1: WELCOME -->
 					<div class="wizard-step-pane" id="step-pane-1" style="<?php echo 1 === $current_step ? '' : 'display:none;'; ?>">
 						<div class="wizard-hero">
-							<h2><?php esc_html_e( 'Welcome to SiteShield Security', 'siteshield' ); ?></h2>
-							<p><?php esc_html_e( 'Proteção corporateiva completa para o seu WordPress contra ameaças digitais:', 'siteshield' ); ?></p>
+							<h2><?php esc_html_e( 'Welcome to SiteShield Security (Demo 1.ª Versão)', 'siteshield' ); ?></h2>
+							<p><?php esc_html_e( 'Proteção corporativa completa e 100% gratuita para o seu WordPress contra ameaças digitais:', 'siteshield' ); ?></p>
 						</div>
 						<ul class="wizard-feature-bullets">
 							<li>
@@ -237,41 +237,21 @@ class Setup_Wizard {
 					<!-- ETAPA 4: PLAN -->
 					<div class="wizard-step-pane" id="step-pane-4" style="<?php echo 4 === $current_step ? '' : 'display:none;'; ?>">
 						<div class="wizard-hero">
-							<h2><?php esc_html_e( 'Your Active Plan', 'siteshield' ); ?></h2>
-							<p><?php esc_html_e( 'Seu site está protegido com os recursos essenciais do plano grateuito.', 'siteshield' ); ?></p>
+							<h2><?php esc_html_e( 'Edição Demo Gratuita — 1.ª Versão', 'siteshield' ); ?></h2>
+							<p><?php esc_html_e( 'Nesta primeira versão pública de demonstração, todos os recursos estão liberados gratuitamente!', 'siteshield' ); ?></p>
 						</div>
 
 						<div class="current-plan-highlight-box">
-							<div class="plan-badge-tag"><?php esc_html_e( 'Current Plan', 'siteshield' ); ?></div>
-							<h3><?php esc_html_e( 'FREE PLAN', 'siteshield' ); ?></h3>
-							<p><?php esc_html_e( 'Proteção essencial ativa para seu site local.', 'siteshield' ); ?></p>
+							<div class="plan-badge-tag"><?php esc_html_e( 'Edição Ativa', 'siteshield' ); ?></div>
+							<h3><?php esc_html_e( 'DEMO FREE (100% DESBLOQUEADO)', 'siteshield' ); ?></h3>
+							<p><?php esc_html_e( 'Todas as camadas de proteção Enterprise & PRO estão ativas sem custos.', 'siteshield' ); ?></p>
 							<ul class="plan-feature-list">
-								<li>✓ <?php esc_html_e( 'Basic Firewall (WAF)', 'siteshield' ); ?></li>
-								<li>✓ <?php esc_html_e( 'Login Protection & Cloaking', 'siteshield' ); ?></li>
-								<li>✓ <?php esc_html_e( 'Security Headers', 'siteshield' ); ?></li>
-								<li>✓ <?php esc_html_e( 'Heuristic Malware Scanner', 'siteshield' ); ?></li>
-								<li>✓ <?php esc_html_e( 'Security Score & Activity Log', 'siteshield' ); ?></li>
+								<li>✓ <?php esc_html_e( 'Firewall Inteligente (WAF em 4 Níveis)', 'siteshield' ); ?></li>
+								<li>✓ <?php esc_html_e( 'Login Protection, URL Cloaking & 2FA TOTP', 'siteshield' ); ?></li>
+								<li>✓ <?php esc_html_e( 'Scanner Heurístico de Malware & Quarentena Segura', 'siteshield' ); ?></li>
+								<li>✓ <?php esc_html_e( 'Integridade SHA-256, Hardening & Anti-Clone', 'siteshield' ); ?></li>
+								<li>✓ <?php esc_html_e( 'Relatórios Executivos PDF & Selo SiteShield Verified', 'siteshield' ); ?></li>
 							</ul>
-						</div>
-
-						<!-- COMPARATIVO PRO/BUSINESS (PALETA PADRÃO AZUL/BRANCO/PRETO) -->
-						<div class="plans-comparison-grid" style="margin-top: 20px;">
-							<div class="plan-card-option">
-								<div class="plan-card-header">
-									<strong>PRO</strong>
-									<span class="badge-pro">PRO</span>
-								</div>
-								<p><?php esc_html_e( 'Para sites profissionais e lojas WooCommerce.', 'siteshield' ); ?></p>
-								<small>+ Advanced Threat Intelligence & Auto PDF Reports</small>
-							</div>
-							<div class="plan-card-option">
-								<div class="plan-card-header">
-									<strong>BUSINESS</strong>
-									<span class="badge-pro">BIZ</span>
-								</div>
-								<p><?php esc_html_e( 'Para agências e empresas com múltiplos sites.', 'siteshield' ); ?></p>
-								<small>+ SiteShield Cloud Multi-Site Management</small>
-							</div>
 						</div>
 
 						<div class="wizard-actions space-between">

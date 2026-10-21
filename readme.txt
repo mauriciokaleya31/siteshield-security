@@ -1,4 +1,4 @@
-=== SiteShield Security & Anti-Clone — Enterprise Suite ===
+=== SiteShield Security & Anti-Clone — Enterprise Suite (Edição Demo Gratuita - 1.ª Versão) ===
 Contributors: mauriciokaleya31
 Author: Maurício Kaleya
 Author URI: https://github.com/mauriciokaleya31
@@ -11,11 +11,14 @@ Stable tag: 2.4.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Suíte corporativa de segurança para WordPress criada por Maurício Kaleya: WAF Inteligente, 2FA TOTP, Scanner de Malware com Quarentena, Integridade SHA-256, Hardening e Anti-Clone.
+[1.ª Versão — Modelo Demo 100% Gratuito] Suíte corporativa de segurança para WordPress criada por Maurício Kaleya com todos os recursos desbloqueados.
 
 == Description ==
 
 O **SiteShield Security & Anti-Clone — Enterprise Suite** é uma solução completa de cibersegurança e proteção de conteúdo para WordPress, desenvolvida por **Maurício Kaleya** (@mauriciokaleya31).
+
+**🎉 EDIÇÃO DEMO GRATUITA (PRIMEIRA VERSÃO):**
+Esta é a primeira versão pública de demonstração do projeto. Todas as funcionalidades Enterprise e PRO (incluindo Relatórios PDF, Selo SiteShield Verified, WAF Avançado e Quarentena Segura) encontram-se **100% desbloqueadas de forma gratuita**, sem necessidade de chave de licença paga!
 
 = Principais Recursos =
 * **Firewall WAF Inteligente**: Modos OFF, MONITOR e BLOCK com 4 níveis de sensibilidade contra SQLi, XSS, LFI/RFI e bots maliciosos.
