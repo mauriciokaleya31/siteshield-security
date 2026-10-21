@@ -116,7 +116,7 @@ if ( $wpdb->get_var( "SHOW TABLES LIKE '{$tables['events']}'" ) === $tables['eve
 					<input type="checkbox" name="waf_block_path_traversal" value="1" <?php checked( $settings['waf_block_path_traversal'] ); ?> />
 					<span class="card-info">
 						<strong><?php esc_html_e( 'Path Traversal & LFI/RFI', 'siteshield' ); ?></strong>
-						<small><?php esc_html_e( 'Bloqueia ../, wrappers php:// e incluso arbitrária de arquivos.', 'siteshield' ); ?></small>
+						<small><?php esc_html_e( 'Bloqueia ../, wrappers php:// e inclusão arbitrária de arquivos.', 'siteshield' ); ?></small>
 					</span>
 				</label>
 

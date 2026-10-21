@@ -1,136 +1,639 @@
-﻿# SiteShield Security Translation
+# SiteShield Security Translation
 msgid ""
 msgstr ""
-"Project-Id-Version: SiteShield Security 2.2.0\n""Language: pt_PT\n""MIME-Version: 1.0\n""Content-Type: text/plain; charset=UTF-8\n""Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: SiteShield Security 2.4.0\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Action"
+msgstr "Ação"
+
 msgid "Active"
 msgstr "Ativo"
+
+msgid "Active Administrator Sessions"
+msgstr "Sessões Administrativas Ativas"
+
+msgid "Active Inspection Rules"
+msgstr "Regras de Inspeção Ativas"
+
+msgid "Active Sessions"
+msgstr "Sessões Ativas"
+
+msgid "Activity & Audit Logs"
+msgstr "Registos de Atividade e Auditoria"
+
+msgid "Activity Log"
+msgstr "Registo de Atividade"
+
+msgid "All Files are Clean & Unmodified"
+msgstr "Todos os Ficheiros Estão Limpos e Íntegros"
+
+msgid "Anonymize IP Addresses (GDPR / LGPD)"
+msgstr "Anonimizar Endereços IP (RGPD / LGPD)"
+
+msgid "Anti-Clone"
+msgstr "Anti-Clone"
+
+msgid "Anti-Frame Busting & Anti-Clickjacking"
+msgstr "Proteção Anti-Frame e Anti-Clickjacking"
 
 msgid "Audit Trail Records"
 msgstr "Registos da Trilha de Auditoria"
 
+msgid "Automated executive security reports"
+msgstr "Relatórios executivos automáticos de segurança"
+
+msgid "Baseline Snapshot Status"
+msgstr "Estado da Linha de Base (Snapshot)"
+
+msgid "Block Mode (Protection Active)"
+msgstr "Modo de Bloqueio (Proteção Ativa)"
+
+msgid "Blocked Requests"
+msgstr "Requisições Bloqueadas"
+
+msgid "Bloqueio Ativo"
+msgstr "Bloqueio Ativo"
+
+msgid "Brute Force & Enumeration Protection"
+msgstr "Proteção Contra Força Bruta e Enumeração"
+
+msgid "CSP Policy Mode:"
+msgstr "Modo da Política CSP:"
+
+msgid "Centralized remote security monitoring"
+msgstr "Monitorização remota centralizada de segurança"
+
 msgid "Change WordPress Login URL"
-msgstr "Alterar EndereÃ§o de Login do WordPress"
+msgstr "Alterar Endereço de Login do WordPress"
+
+msgid "Check Integrity Now"
+msgstr "Verificar Integridade Agora"
+
+msgid "Cloud"
+msgstr "Nuvem (Cloud)"
+
+msgid "Cloud Data Transmission Level:"
+msgstr "Nível de Transmissão de Dados Cloud:"
+
+msgid "Complete"
+msgstr "Concluído"
+
+msgid "Component:"
+msgstr "Componente:"
+
+msgid "Configure Security →"
+msgstr "Configurar Segurança →"
+
+msgid "Configured"
+msgstr "Configurado"
+
+msgid "Connect your SiteShield Account"
+msgstr "Conectar Conta SiteShield"
 
 msgid "Content Protection & Anti-Clone"
-msgstr "ProteÃ§Ã£o de ConteÃºdo e Anti-CÃ³pia"
+msgstr "Proteção de Conteúdo e Anti-Clone"
+
+msgid "Content Security Policy (CSP)"
+msgstr "Política de Segurança de Conteúdo (CSP)"
+
+msgid "Continue →"
+msgstr "Continuar →"
 
 msgid "Copy URL"
-msgstr "Copiar EndereÃ§o"
+msgstr "Copiar Endereço"
+
+msgid "Core Files"
+msgstr "Ficheiros do Núcleo (Core)"
+
+msgid "Country"
+msgstr "País"
+
+msgid "Create SiteShield Account"
+msgstr "Criar Conta SiteShield"
+
+msgid "Cross-Site Scripting Protection (XSS)"
+msgstr "Proteção Contra Cross-Site Scripting (XSS)"
+
+msgid "Custom CSP Directive:"
+msgstr "Diretiva CSP Personalizada:"
+
+msgid "DNS Security (SPF & DMARC)"
+msgstr "Segurança DNS (SPF e DMARC)"
 
 msgid "Dashboard"
 msgstr "Painel Principal"
 
+msgid "Dashboard & Security Score"
+msgstr "Painel e Pontuação de Segurança"
+
+msgid "Delete"
+msgstr "Eliminar"
+
+msgid "Delete all SiteShield data on uninstall"
+msgstr "Eliminar todos os dados do SiteShield ao desinstalar"
+
+msgid "Details"
+msgstr "Detalhes"
+
+msgid "Detected Suspicious Files"
+msgstr "Ficheiros Suspeitos Detetados"
+
 msgid "Diagnostics"
-msgstr "DiagnÃ³sticos"
+msgstr "Diagnósticos"
+
+msgid "Disabled"
+msgstr "Desativado"
+
+msgid "Disabled (OFF)"
+msgstr "Desativado (OFF)"
 
 msgid "Download PDF Report"
-msgstr "Descarregar RelatÃ³rio em PDF"
+msgstr "Descarregar Relatório em PDF"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "Email Address:"
+msgstr "Endereço de E-mail:"
 
 msgid "Emergency Mode"
-msgstr "Modo de EmergÃªncia"
+msgstr "Modo de Emergência"
 
 msgid "Emergency Mode ON"
-msgstr "Modo de EmergÃªncia ATIVO"
+msgstr "Modo de Emergência ATIVO"
+
+msgid "Enable High Compatibility Mode"
+msgstr "Ativar Modo de Alta Compatibilidade"
+
+msgid "Enable Security Headers Injection"
+msgstr "Ativar Injeção de Cabeçalhos de Segurança"
+
+msgid "Enable Visitor Stateistics"
+msgstr "Ativar Estatísticas de Visitantes"
+
+msgid "Enable Visitor Statistics"
+msgstr "Ativar Estatísticas de Visitantes"
+
+msgid "Environment & Patch Status"
+msgstr "Estado do Ambiente e Atualizações"
 
 msgid "Executive Security Reports"
-msgstr "RelatÃ³rios Executivos de SeguranÃ§a"
+msgstr "Relatórios Executivos de Segurança"
+
+msgid "Export Events (CSV)"
+msgstr "Exportar Eventos (CSV)"
 
 msgid "Failed"
 msgstr "Falhou"
 
+msgid "File Integrity"
+msgstr "Integridade de Ficheiros"
+
 msgid "File Integrity (SHA-256)"
 msgstr "Integridade de Ficheiros (SHA-256)"
 
+msgid "File Integrity Monitoring (SHA-256)"
+msgstr "Monitorização de Integridade de Ficheiros (SHA-256)"
+
+msgid "File Integrity SHA-256"
+msgstr "Integridade de Ficheiros (SHA-256)"
+
+msgid "File Integrity Snapshot (SHA-256)"
+msgstr "Snapshot de Integridade de Ficheiros (SHA-256)"
+
+msgid "File integrity →"
+msgstr "Integridade de ficheiros →"
+
 msgid "Files Scanned"
-msgstr "Ficheiros Auditados"
+msgstr "Ficheiros Analisados"
+
+msgid "Firewall (WAF)"
+msgstr "Firewall (WAF)"
+
+msgid "Firewall Operating Mode"
+msgstr "Modo de Operação do Firewall"
+
+msgid "Firewall Sensitivity Level & Learning Mode"
+msgstr "Nível de Sensibilidade e Modo de Aprendizagem"
+
+msgid "Firewall WAF & IP Manager"
+msgstr "Firewall WAF e Gestão de IPs"
+
+msgid "Firewall logs →"
+msgstr "Registos do Firewall →"
+
+msgid "Firewall:"
+msgstr "Firewall:"
+
+msgid "First Seen"
+msgstr "Primeiro Acesso"
+
+msgid "Fixed Version:"
+msgstr "Versão Corrigida:"
+
+msgid "Full Scan (Entire WordPress)"
+msgstr "Análise Completa (Todo o WordPress)"
+
+msgid "Get Started →"
+msgstr "Começar Agora →"
+
+msgid "Go to Dashboard →"
+msgstr "Ir para o Painel →"
+
+msgid "HTTP Response Headers"
+msgstr "Cabeçalhos de Resposta HTTP"
+
+msgid "Hardening"
+msgstr "Blindagem (Hardening)"
 
 msgid "Heuristic Malware Scanner"
-msgstr "Analisador HeurÃ­stico de Malware"
+msgstr "Analisador Heurístico de Malware"
+
+msgid "I Already Have an Account"
+msgstr "Já Tenho uma Conta"
+
+msgid "I agree to receive SiteShield news and important security alerts."
+msgstr "Concordo em receber novidades e alertas importantes de segurança do SiteShield."
+
+msgid "IP & Log Retention Period:"
+msgstr "Período de Retenção de IPs e Registos:"
+
+msgid "IP Address"
+msgstr "Endereço IP"
+
+msgid "IP Addresses & Visitor Logs"
+msgstr "Endereços IP e Registos de Visitantes"
 
 msgid "Inactive"
 msgstr "Inativo"
 
+msgid "Initial Security Scan"
+msgstr "Análise Inicial de Segurança"
+
+msgid "Integrity Audit Results"
+msgstr "Resultados da Auditoria de Integridade"
+
 msgid "Language"
 msgstr "Idioma"
 
+msgid "Language & Localization"
+msgstr "Idioma e Localização"
+
+msgid "Last Baseline Created:"
+msgstr "Última Linha de Base Criada:"
+
+msgid "Last Seen"
+msgstr "Último Acesso"
+
 msgid "License & Plans"
-msgstr "LicenÃ§a e Planos"
+msgstr "Licença e Planos"
+
+msgid "Login Protection & Cloaking"
+msgstr "Proteção de Login e Ocultação de URL"
+
+msgid "Login Protection, URL Cloaking & 2FA TOTP"
+msgstr "Proteção de Login, Ocultação de URL e 2FA TOTP"
+
+msgid "Login Protection:"
+msgstr "Proteção de Login:"
+
+msgid "Login Security"
+msgstr "Segurança de Login"
 
 msgid "Login Security & URL Cloaking"
-msgstr "SeguranÃ§a de Login e URL"
+msgstr "Segurança de Login e Ocultação de URL"
+
+msgid "Malicious User Agents & Scanners"
+msgstr "User-Agents Maliciosos e Scanners"
+
+msgid "Malware Scanner"
+msgstr "Scanner de Malware"
+
+msgid "Malware Scanner & Quarantine"
+msgstr "Scanner de Malware e Quarentena"
+
+msgid "Manage your license & generate API keys"
+msgstr "Gerir licença e chaves de API"
+
+msgid "Management & Cloud"
+msgstr "Gestão e Cloud"
+
+msgid "Modified"
+msgstr "Modificado"
+
+msgid "Modo Monitor"
+msgstr "Modo Monitor"
+
+msgid "Monitor Mode (Learning)"
+msgstr "Modo Monitor (Aprendizagem)"
+
+msgid "Monitored Files in Baseline:"
+msgstr "Ficheiros Monitorizados na Linha de Base:"
+
+msgid "New File"
+msgstr "Novo Ficheiro"
+
+msgid "No Known Vulnerabilities"
+msgstr "Nenhuma Vulnerabilidade Conhecida"
+
+msgid "No Threats Detected"
+msgstr "Nenhuma Ameaça Detetada"
+
+msgid "None"
+msgstr "Nenhum"
+
+msgid "Normal"
+msgstr "Normal"
 
 msgid "Not Tested"
-msgstr "NÃ£o Testado"
+msgstr "Não Testado"
+
+msgid "Page Builder & Cache Compatibility"
+msgstr "Compatibilidade com Construtores de Páginas e Cache"
+
+msgid "Page Views"
+msgstr "Visualizações de Página"
 
 msgid "Passed"
 msgstr "Aprovado"
 
+msgid "Path Traversal & LFI/RFI"
+msgstr "Path Traversal e Inclusão de Ficheiros (LFI/RFI)"
+
+msgid "Payload"
+msgstr "Payload"
+
+msgid "Plan"
+msgstr "Plano"
+
+msgid "Plugins"
+msgstr "Plugins"
+
+msgid "Privacy & Visitor Tracking"
+msgstr "Privacidade e Monitorização de Visitantes"
+
+msgid "Privacy Center & Site Identity"
+msgstr "Centro de Privacidade e Identidade do Site"
+
+msgid "Protected"
+msgstr "Protegido"
+
 msgid "Protection"
-msgstr "ProteÃ§Ã£o"
+msgstr "Proteção"
+
+msgid "Protection Real-Time Verification Results"
+msgstr "Resultados da Verificação de Proteção em Tempo Real"
+
+msgid "Protection:"
+msgstr "Proteção:"
+
+msgid "Quarantine"
+msgstr "Quarentena"
+
+msgid "Quarantine Vault"
+msgstr "Cofre de Quarentena"
+
+msgid "Quick Scan (Plugins & Themes)"
+msgstr "Análise Rápida (Plugins e Temas)"
+
+msgid "Ready"
+msgstr "Pronto"
+
+msgid "Recent Firewall Interceptions"
+msgstr "Interceções Recentes do Firewall"
+
+msgid "Recommended Action:"
+msgstr "Ação Recomendada:"
+
+msgid "Recreate Baseline (Snapshot)"
+msgstr "Recriar Linha de Base (Snapshot)"
 
 msgid "Reports (PDF)"
-msgstr "RelatÃ³rios (PDF)"
+msgstr "Relatórios (PDF)"
+
+msgid "Request ID"
+msgstr "ID da Requisição"
+
+msgid "Requests"
+msgstr "Requisições"
+
+msgid "Restore"
+msgstr "Restaurar"
+
+msgid "Run Protection Test"
+msgstr "Executar Autoteste de Proteção"
 
 msgid "Run Security Scan"
-msgstr "Executar AnÃ¡lise"
+msgstr "Executar Análise de Segurança"
+
+msgid "SECURITY SCORE"
+msgstr "PONTUAÇÃO DE SEGURANÇA"
+
+msgid "SQL Injection Protection (SQLi)"
+msgstr "Proteção Contra Injeção de SQL (SQLi)"
 
 msgid "Save Login URL"
-msgstr "Guardar EndereÃ§o de Login"
+msgstr "Guardar Endereço de Login"
+
+msgid "Scan"
+msgstr "Análise"
+
+msgid "Scan Operations"
+msgstr "Operações de Análise"
 
 msgid "Scanner"
-msgstr "AnÃ¡lise de SeguranÃ§a"
+msgstr "Scanner de Malware"
+
+msgid "Scanner:"
+msgstr "Scanner:"
+
+msgid "Securing your website..."
+msgstr "A proteger o seu website..."
+
+msgid "Security"
+msgstr "Segurança"
+
+msgid "Security Center"
+msgstr "Centro de Segurança"
+
+msgid "Security Diagnostics & Standards Audit"
+msgstr "Diagnósticos de Segurança e Auditoria de Conformidade"
+
+msgid "Security Event Center & Severity Engine"
+msgstr "Centro de Eventos de Segurança e Motor de Severidade"
+
+msgid "Security Events"
+msgstr "Eventos de Segurança"
+
+msgid "Security Events Log"
+msgstr "Registo de Eventos de Segurança"
+
+msgid "Security Headers"
+msgstr "Cabeçalhos de Segurança"
 
 msgid "Security Headers & CSP"
-msgstr "CabeÃ§alhos de SeguranÃ§a e CSP"
+msgstr "Cabeçalhos de Segurança e CSP"
+
+msgid "Security Modules Status"
+msgstr "Estado dos Módulos de Segurança"
 
 msgid "Security Score"
-msgstr "PontuaÃ§Ã£o de SeguranÃ§a"
+msgstr "Pontuação de Segurança"
+
+msgid "Security Score Breakdown"
+msgstr "Detalhamento da Pontuação de Segurança"
+
+msgid "Security Setup"
+msgstr "Configuração de Segurança"
+
+msgid "Select Interface Language:"
+msgstr "Selecionar Idioma da Interface:"
 
 msgid "Settings"
-msgstr "ConfiguraÃ§Ãµes"
+msgstr "Configurações"
 
 msgid "Setup Wizard"
-msgstr "Assistente de InstalaÃ§Ã£o"
+msgstr "Assistente de Configuração"
+
+msgid "SiteShield Cloud Connection"
+msgstr "Conexão SiteShield Cloud"
+
+msgid "SiteShield Security"
+msgstr "SiteShield Security"
+
+msgid "SiteShield Security Center"
+msgstr "Centro de Segurança SiteShield"
+
+msgid "SiteShield has completed the initial setup successfully."
+msgstr "O SiteShield concluiu a configuração inicial com sucesso."
+
+msgid "Skip"
+msgstr "Saltar"
+
+msgid "Skip for Now →"
+msgstr "Saltar por Agora →"
+
+msgid "Status"
+msgstr "Estado"
+
+msgid "Stay Updated"
+msgstr "Mantenha-se Atualizado"
+
+msgid "Strict-Transport-Security (HSTS)"
+msgstr "Strict-Transport-Security (HSTS)"
+
+msgid "Suspicious Files"
+msgstr "Ficheiros Suspeitos"
+
+msgid "System Health"
+msgstr "Saúde do Sistema"
+
+msgid "System Health Center"
+msgstr "Centro de Saúde do Sistema"
 
 msgid "System Settings & Privacy Policy"
-msgstr "ConfiguraÃ§Ãµes do Sistema e Privacidade"
+msgstr "Configurações do Sistema e Privacidade"
+
+msgid "Themes"
+msgstr "Temas"
 
 msgid "Threats Blocked"
 msgstr "Ataques Bloqueados"
 
 msgid "Threats Detected"
-msgstr "AmeaÃ§as Detetadas"
+msgstr "Ameaças Detetadas"
 
 msgid "Tools, Diagnostics & Backup"
-msgstr "Ferramentas, DiagnÃ³sticos e CÃ³pia de SeguranÃ§a"
+msgstr "Ferramentas, Diagnósticos e Cópia de Segurança"
+
+msgid "Total Requests"
+msgstr "Total de Requisições"
+
+msgid "Two-Factor Authentication (2FA TOTP)"
+msgstr "Autenticação de Dois Fatores (2FA TOTP)"
+
+msgid "Two-Factor Authentication (2FA)"
+msgstr "Autenticação de Dois Fatores (2FA)"
+
+msgid "Uninstallation & Data Cleanup"
+msgstr "Desinstalação e Limpeza de Dados"
+
+msgid "Unique Site ID (Identificador do Site):"
+msgstr "ID Único do Site (Identificador):"
 
 msgid "Unique Visitors"
-msgstr "Visitantes Ãšnicos"
+msgstr "Visitantes Únicos"
+
+msgid "Unique Visitors (7d)"
+msgstr "Visitantes Únicos (7 dias)"
+
+msgid "User"
+msgstr "Utilizador"
 
 msgid "View Report"
-msgstr "Ver RelatÃ³rio"
+msgstr "Ver Relatório"
+
+msgid "View threats →"
+msgstr "Ver ameaças →"
+
+msgid "Visitor & Traffic Tracking"
+msgstr "Monitorização de Visitantes e Tráfego"
+
+msgid "Visitor Activity Trend"
+msgstr "Tendência de Atividade de Visitantes"
+
+msgid "Visitor stats →"
+msgstr "Estatísticas de visitantes →"
 
 msgid "Visitors & IPs"
 msgstr "Visitantes e IPs"
 
 msgid "Visitors & Traffic"
-msgstr "Visitantes e TrÃ¡fego"
+msgstr "Visitantes e Tráfego"
+
+msgid "Visitors & Traffic Intelligence"
+msgstr "Inteligência de Visitantes e Tráfego"
+
+msgid "Vulnerabilities"
+msgstr "Vulnerabilidades"
 
 msgid "Vulnerability Monitor & Audit"
-msgstr "MonitorizaÃ§Ã£o de Vulnerabilidades e Auditoria"
+msgstr "Monitorização de Vulnerabilidades e Auditoria"
+
+msgid "WAF Exceptions & Safe Routes Allowlist"
+msgstr "Exceções do WAF e Lista de Rotas Seguras"
 
 msgid "Warning"
 msgstr "Aviso"
 
 msgid "Web Application Firewall (WAF)"
-msgstr "Firewall de AplicaÃ§Ã£o (WAF)"
+msgstr "Firewall de Aplicação (WAF)"
+
+msgid "Welcome"
+msgstr "Bem-vindo"
+
+msgid "Welcome to SiteShield Security (Demo 1.ª Versão)"
+msgstr "Bem-vindo ao SiteShield Security (Demo 1.ª Versão)"
+
+msgid "WordPress Core"
+msgstr "Núcleo do WordPress (Core)"
+
+msgid "WordPress Hardening & System Shielding"
+msgstr "Blindagem do Sistema e WordPress Hardening"
 
 msgid "Your website has good protection with minor recommendations."
-msgstr "O seu website possui boa proteÃ§Ã£o com recomendaÃ§Ãµes pontuais."
+msgstr "O seu website possui boa proteção com recomendações pontuais."
+
+msgid "Your website is protected."
+msgstr "O seu website está protegido."
 
 msgid "Your website requires security attention."
-msgstr "O seu website requer atenÃ§Ã£o de seguranÃ§a."
+msgstr "O seu website requer atenção de segurança."
 
 msgid "Your website security is strong."
-msgstr "A seguranÃ§a do seu website estÃ¡ excelente."
+msgstr "A segurança do seu website está excelente."
 

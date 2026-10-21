@@ -1,18 +1,23 @@
-﻿# SiteShield Security Translation
+# SiteShield Security Translation
 msgid ""
 msgstr ""
-"Project-Id-Version: SiteShield Security 2.2.0\n""Language: es_ES\n""MIME-Version: 1.0\n""Content-Type: text/plain; charset=UTF-8\n""Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: SiteShield Security 2.4.0\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
 msgid "Active"
 msgstr "Activo"
 
 msgid "Audit Trail Records"
-msgstr "Registros de AuditorÃ­a"
+msgstr "Registros de Auditoría"
 
 msgid "Change WordPress Login URL"
 msgstr "Cambiar URL de Acceso de WordPress"
 
 msgid "Content Protection & Anti-Clone"
-msgstr "ProtecciÃ³n de Contenido y Anti-Copia"
+msgstr "Protección de Contenido y Anti-Copia"
 
 msgid "Copy URL"
 msgstr "Copiar URL"
@@ -21,7 +26,7 @@ msgid "Dashboard"
 msgstr "Panel Principal"
 
 msgid "Diagnostics"
-msgstr "DiagnÃ³sticos"
+msgstr "Diagnósticos"
 
 msgid "Download PDF Report"
 msgstr "Descargar Informe en PDF"
@@ -45,7 +50,7 @@ msgid "Files Scanned"
 msgstr "Archivos Analizados"
 
 msgid "Heuristic Malware Scanner"
-msgstr "EscÃ¡ner HeurÃ­stico de Malware"
+msgstr "Escáner Heurístico de Malware"
 
 msgid "Inactive"
 msgstr "Inactivo"
@@ -66,31 +71,31 @@ msgid "Passed"
 msgstr "Aprobado"
 
 msgid "Protection"
-msgstr "ProtecciÃ³n"
+msgstr "Protección"
 
 msgid "Reports (PDF)"
 msgstr "Informes (PDF)"
 
 msgid "Run Security Scan"
-msgstr "Ejecutar AnÃ¡lisis"
+msgstr "Ejecutar Análisis"
 
 msgid "Save Login URL"
 msgstr "Guardar URL de Acceso"
 
 msgid "Scanner"
-msgstr "EscÃ¡ner"
+msgstr "Escáner"
 
 msgid "Security Headers & CSP"
 msgstr "Encabezados de Seguridad y CSP"
 
 msgid "Security Score"
-msgstr "PuntuaciÃ³n de Seguridad"
+msgstr "Puntuación de Seguridad"
 
 msgid "Settings"
 msgstr "Ajustes"
 
 msgid "Setup Wizard"
-msgstr "Asistente de ConfiguraciÃ³n"
+msgstr "Asistente de Configuración"
 
 msgid "System Settings & Privacy Policy"
 msgstr "Ajustes del Sistema y Privacidad"
@@ -102,7 +107,7 @@ msgid "Threats Detected"
 msgstr "Amenazas Detectadas"
 
 msgid "Tools, Diagnostics & Backup"
-msgstr "Herramientas, DiagnÃ³sticos y Copia de Seguridad"
+msgstr "Herramientas, Diagnósticos y Copia de Seguridad"
 
 msgid "Unique Visitors"
 msgstr "Visitantes Ãšnicos"
@@ -114,22 +119,22 @@ msgid "Visitors & IPs"
 msgstr "Visitantes e IPs"
 
 msgid "Visitors & Traffic"
-msgstr "Visitantes y TrÃ¡fico"
+msgstr "Visitantes y Tráfico"
 
 msgid "Vulnerability Monitor & Audit"
-msgstr "Monitor de Vulnerabilidades y AuditorÃ­a"
+msgstr "Monitor de Vulnerabilidades y Auditoría"
 
 msgid "Warning"
 msgstr "Advertencia"
 
 msgid "Web Application Firewall (WAF)"
-msgstr "Firewall de AplicaciÃ³n (WAF)"
+msgstr "Firewall de Aplicación (WAF)"
 
 msgid "Your website has good protection with minor recommendations."
-msgstr "Su sitio web tiene buena protecciÃ³n con recomendaciones menores."
+msgstr "Su sitio web tiene buena protección con recomendaciones menores."
 
 msgid "Your website requires security attention."
-msgstr "Su sitio web requiere atenciÃ³n de seguridad."
+msgstr "Su sitio web requiere atención de seguridad."
 
 msgid "Your website security is strong."
 msgstr "La seguridad de su sitio web es excelente."

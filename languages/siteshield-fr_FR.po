@@ -1,7 +1,12 @@
-﻿# SiteShield Security Translation
+# SiteShield Security Translation
 msgid ""
 msgstr ""
-"Project-Id-Version: SiteShield Security 2.2.0\n""Language: fr_FR\n""MIME-Version: 1.0\n""Content-Type: text/plain; charset=UTF-8\n""Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: SiteShield Security 2.4.0\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
 msgid "Active"
 msgstr "Actif"
 
@@ -24,7 +29,7 @@ msgid "Diagnostics"
 msgstr "Diagnostics"
 
 msgid "Download PDF Report"
-msgstr "TÃ©lÃ©charger le Rapport PDF"
+msgstr "Télécharger le Rapport PDF"
 
 msgid "Emergency Mode"
 msgstr "Mode d'Urgence"
@@ -33,16 +38,16 @@ msgid "Emergency Mode ON"
 msgstr "Mode d'Urgence ACTIF"
 
 msgid "Executive Security Reports"
-msgstr "Rapports ExÃ©cutifs de SÃ©curitÃ©"
+msgstr "Rapports Exécutifs de Sécurité"
 
 msgid "Failed"
 msgstr "Ã‰chouÃ©"
 
 msgid "File Integrity (SHA-256)"
-msgstr "IntÃ©gritÃ© des Fichiers (SHA-256)"
+msgstr "Intégrité des Fichiers (SHA-256)"
 
 msgid "Files Scanned"
-msgstr "Fichiers AnalysÃ©s"
+msgstr "Fichiers Analysés"
 
 msgid "Heuristic Malware Scanner"
 msgstr "Scanner Heuristique de Malware"
@@ -57,13 +62,13 @@ msgid "License & Plans"
 msgstr "Licence et Plans"
 
 msgid "Login Security & URL Cloaking"
-msgstr "SÃ©curitÃ© de Connexion et URL"
+msgstr "Sécurité de Connexion et URL"
 
 msgid "Not Tested"
-msgstr "Non TestÃ©"
+msgstr "Non Testé"
 
 msgid "Passed"
-msgstr "RÃ©ussi"
+msgstr "Réussi"
 
 msgid "Protection"
 msgstr "Protection"
@@ -81,25 +86,25 @@ msgid "Scanner"
 msgstr "Analyseur"
 
 msgid "Security Headers & CSP"
-msgstr "En-tÃªtes de SÃ©curitÃ© et CSP"
+msgstr "En-têtes de Sécurité et CSP"
 
 msgid "Security Score"
-msgstr "Score de SÃ©curitÃ©"
+msgstr "Score de Sécurité"
 
 msgid "Settings"
-msgstr "ParamÃ¨tres"
+msgstr "Paramètres"
 
 msgid "Setup Wizard"
 msgstr "Assistant d'Installation"
 
 msgid "System Settings & Privacy Policy"
-msgstr "ParamÃ¨tres du SystÃ¨me et ConfidentialitÃ©"
+msgstr "Paramètres du Système et Confidentialité"
 
 msgid "Threats Blocked"
-msgstr "Attaques BloquÃ©es"
+msgstr "Attaques Bloquées"
 
 msgid "Threats Detected"
-msgstr "Menaces DÃ©tectÃ©es"
+msgstr "Menaces Détectées"
 
 msgid "Tools, Diagnostics & Backup"
 msgstr "Outils, Diagnostics et Sauvegarde"
@@ -117,7 +122,7 @@ msgid "Visitors & Traffic"
 msgstr "Visiteurs et Trafic"
 
 msgid "Vulnerability Monitor & Audit"
-msgstr "Surveillance des VulnÃ©rabilitÃ©s et Audit"
+msgstr "Surveillance des Vulnérabilités et Audit"
 
 msgid "Warning"
 msgstr "Avertissement"
@@ -126,11 +131,11 @@ msgid "Web Application Firewall (WAF)"
 msgstr "Pare-feu d'Application (WAF)"
 
 msgid "Your website has good protection with minor recommendations."
-msgstr "Votre site a une bonne protection avec de lÃ©gÃ¨res recommandations."
+msgstr "Votre site a une bonne protection avec de légères recommandations."
 
 msgid "Your website requires security attention."
-msgstr "Votre site web nÃ©cessite une attention de sÃ©curitÃ©."
+msgstr "Votre site web nécessite une attention de sécurité."
 
 msgid "Your website security is strong."
-msgstr "La sÃ©curitÃ© de votre site web est excellente."
+msgstr "La sécurité de votre site web est excellente."
 

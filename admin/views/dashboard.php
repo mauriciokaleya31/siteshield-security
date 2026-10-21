@@ -263,7 +263,15 @@ $visitor_state = \SiteShield\Visitors\Visitor_Tracker::get_stats( '7d' );
 											<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0066FF" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
 											<span><?php esc_html_e( 'Web Application Firewall (WAF)', 'siteshield' ); ?></span>
 										</div>
-										<span class="ss-badge ss-badge-primary"><?php echo esc_html( $settings['waf_mode'] ); ?></span>
+										<span class="ss-badge ss-badge-primary"><?php
+											if ( 'BLOCK' === $settings['waf_mode'] ) {
+												esc_html_e( 'Bloqueio Ativo', 'siteshield' );
+											} elseif ( 'MONITOR' === $settings['waf_mode'] ) {
+												esc_html_e( 'Modo Monitor', 'siteshield' );
+											} else {
+												esc_html_e( 'Desativado', 'siteshield' );
+											}
+										?></span>
 									</li>
 									<li class="module-status-row">
 										<div class="mod-info">

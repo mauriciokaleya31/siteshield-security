@@ -42,7 +42,7 @@ class Error_Knowledge_Base {
 				'title'            => __( 'Classe PHP Não Encontrada', 'siteshield' ),
 				'explanation'      => sprintf( __( 'O WordPress tentou executar a classe "%s", mas ela não foi localizada na memória no momento da chamada.', 'siteshield' ), $target_class ),
 				'probable_causes'  => array(
-					__( 'Falha na incluso (require/include) do arquivo que define a classe.', 'siteshield' ),
+					__( 'Falha na inclusão (require/include) do arquivo que define a classe.', 'siteshield' ),
 					__( 'Erro de sintaxe ou interrupção no arquivo que antecede o carregamento desta classe.', 'siteshield' ),
 					__( 'Incompatibilidade de namespace ou carregamento fora da ordem de ganchos (hooks) do WordPress.', 'siteshield' ),
 					__( 'Ficheiro ausente ou corrompido durante o envio/descompactação do plugin.', 'siteshield' ),
@@ -62,7 +62,7 @@ class Error_Knowledge_Base {
 					__( 'Transiente ou resposta da API do WordPress retornou um objeto stdClass em vez de array associativo.', 'siteshield' ),
 					__( 'Código desenvolvido para PHP 7.x que não foi adaptado para a tipagem estrita do PHP 8.x.', 'siteshield' ),
 				),
-				'impact'           => __( 'A rotina que consulta atualizações ou dados do sistema falha ação processar os dados recebidos.', 'siteshield' ),
+				'impact'           => __( 'A rotina que consulta atualizações ou dados do sistema falha ao processar os dados recebidos.', 'siteshield' ),
 				'recommendation'   => __( 'Utilizar verificações de tipo com is_object() e is_array() antes de acessar chaves dinâmicas.', 'siteshield' ),
 			);
 		}
@@ -127,7 +127,7 @@ class Error_Knowledge_Base {
 				'probable_causes'  => array(
 					__( 'Varredura completa de muitos arquivos executada de forma síncrona.', 'siteshield' ),
 					__( 'Conexão externa lenta ou bloqueada por firewall de rede do servidor.', 'siteshield' ),
-					__( 'Consultas pesadas ação banco de dados com muitos registros.', 'siteshield' ),
+					__( 'Consultas pesadas ao banco de dados com muitos registros.', 'siteshield' ),
 				),
 				'impact'           => __( 'A requisição é encerrada abruptamente sem finalizar o processamento.', 'siteshield' ),
 				'recommendation'   => __( 'Dividir operações longas em lotes menores ou utilizar chamadas em segundo plano via WP-Cron.', 'siteshield' ),
@@ -174,7 +174,7 @@ class Error_Knowledge_Base {
 				__( 'Execução de rotina em ambiente com modo de depuração ativado.', 'siteshield' ),
 				__( 'Aviso de compatibilidade ou depreciação de biblioteca.', 'siteshield' ),
 			),
-			'impact'           => __( 'Dependendo da gravidade, pode ser apenas um alerta informativo ou exigir ajauste nas configurações.', 'siteshield' ),
+			'impact'           => __( 'Dependendo da gravidade, pode ser apenas um alerta informativo ou exigir ajuste nas configurações.', 'siteshield' ),
 			'recommendation'   => __( 'Consulte os detalhes técnicos clicando em "Ver detalhes técnicos" para inspecionar a pilha de execução.', 'siteshield' ),
 		);
 	}

@@ -81,7 +81,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<label class="ss-toggle-card">
 					<input type="checkbox" name="visitor_tracking_enabled" value="1" <?php checked( $settings['visitor_tracking_enabled'] ); ?> />
 					<span class="card-info">
-						<strong><?php esc_html_e( 'Enable Visitor Stateistics', 'siteshield' ); ?></strong>
+						<strong><?php esc_html_e( 'Enable Visitor Statistics', 'siteshield' ); ?></strong>
 						<small><?php esc_html_e( 'Rastreamento leve e não intrusivo de tráfego e requisições no frontend.', 'siteshield' ); ?></small>
 					</span>
 				</label>
